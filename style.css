@@ -1,0 +1,48 @@
+.car-card{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+.car-image{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.car-info{
+    padding: 16px;
+    background-color: #f9f9f9;
+}
+.car-info h2, .car-info h3{
+    margin: 8px 0;
+    color: #333;
+}
+.price{
+    font-size: 18px;
+    color: #27ae60;
+    font-weight: bold;
+    margin: 12px 0;
+}
+.offer-btn{
+    display: inline-block;
+    padding: 10px 16px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+.offer-btn:hover{
+    background-color: #2980b9;
+}
+location{
+    padding: 12px 16px;
+    background-color: #eee;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}

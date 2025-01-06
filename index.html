@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Card</title>
+</head>
+<body>
+    <div class="car-card">
+    <img src="https://ibb.co/xDbjxLd" alt="imagem do carro" class="car-image">
+    <div class="car-info">
+        <h2>Marca: Ford</h2>
+        <h3>Modelo: Mustang GT</h3>
+        <p class="price">Valor: R$ 350.000,00</p>
+        <button class="offer-btn" onclick="ViewDetails()">ver Oferta</button>
+    </div>
+    <div class="location">
+        <p>localizaçao: Sao Paulo, Sp</p>
+    </div>
+</div>
+<script>
+    function ViewDetails(){
+        window.location.href = "detalhes.html";
+    }
+</script>
+</body>
+</html>
